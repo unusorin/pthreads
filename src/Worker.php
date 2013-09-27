@@ -133,7 +133,7 @@ abstract class Worker
 
     /**
      * Will start a new Thread, executing Worker::run and then waiting for Stackables
-     * @param $options An optional mask of inheritance constants, by default PTHREADS_INHERIT_ALL
+     * @param int $options An optional mask of inheritance constants, by default PTHREADS_INHERIT_ALL
      * @return bool
      * @since 0.36
      */
