@@ -16,7 +16,7 @@ abstract class Thread
      * @return array An array of items from the objects member table
      * @since 0.45
      */
-    public function chunk($size, $preserve)
+    final public function chunk($size, $preserve)
     {
         //noop
     }
@@ -26,7 +26,7 @@ abstract class Thread
      * @return int A numeric identity
      * @since 0.36
      */
-    public function getCreatorId()
+    final public function getCreatorId()
     {
         //noop
     }
@@ -36,7 +36,7 @@ abstract class Thread
      * @return int A numeric identity
      * @since 0.34
      */
-    public function getThreadId()
+    final public function getThreadId()
     {
         //noop
     }
@@ -46,7 +46,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function isJoined()
+    final public function isJoined()
     {
         //noop
     }
@@ -56,7 +56,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function isRunning()
+    final public function isRunning()
     {
         //noop
     }
@@ -66,7 +66,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function isStarted()
+    final public function isStarted()
     {
         //noop
     }
@@ -76,7 +76,7 @@ abstract class Thread
      * @return boolean
      * @since 0.43
      */
-    public function isTerminated()
+    final public function isTerminated()
     {
         //noop
     }
@@ -86,7 +86,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function isWaiting()
+    final public function isWaiting()
     {
         //noop
     }
@@ -96,7 +96,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function join()
+    final public function join()
     {
         //noop
     }
@@ -106,7 +106,7 @@ abstract class Thread
      * @return boolean
      * @since 0.40
      */
-    public function lock()
+    final public function lock()
     {
         //noop
     }
@@ -118,7 +118,7 @@ abstract class Thread
      * @return boolean
      * @since 0.45
      */
-    public function merge($from, $overwrite = null)
+    final public function merge($from, $overwrite = null)
     {
         //noop
     }
@@ -128,7 +128,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function notify()
+    final public function notify()
     {
         //noop
     }
@@ -138,7 +138,7 @@ abstract class Thread
      * @return mixed The last item from the objects member table
      * @since 0.45
      */
-    public function pop()
+    final public function pop()
     {
         //noop
     }
@@ -155,7 +155,7 @@ abstract class Thread
      * @return mixed The first item from the objects member table
      * @since 0.45
      */
-    public function shift()
+    final public function shift()
     {
         //noop
     }
@@ -166,7 +166,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function start($options)
+    final public function start($options)
     {
         //noop
     }
@@ -177,7 +177,7 @@ abstract class Thread
      * @return mixed The return value from the block
      * @since 0.40
      */
-    public function synchronized(Closure $block)
+    final public function synchronized(Closure $block)
     {
         //noop
     }
@@ -187,7 +187,7 @@ abstract class Thread
      * @return boolean
      * @since 0.40
      */
-    public function unlock()
+    final public function unlock()
     {
         //noop
     }
@@ -198,7 +198,7 @@ abstract class Thread
      * @return boolean
      * @since 0.34
      */
-    public function wait($timeout)
+    final public function wait($timeout)
     {
         //noop
     }
