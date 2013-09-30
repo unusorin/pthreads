@@ -1,0 +1,15 @@
+{
+    "name": "unusorin/pthreads",
+    "description": "Pthreads IDE support",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Sorin Badea",
+            "email": "sorin.badea91@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
